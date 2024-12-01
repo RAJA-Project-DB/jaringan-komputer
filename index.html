@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Home</title>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/logo3.svg">
+    <style>
+        @keyframes appear {
+            from {
+                opacity: 0;
+                scale: 0.5;
+            }
+
+            to {
+                opacity: 1;
+                scale: 1;
+            }
+        }
+
+        .h1-1, p {
+            animation: appear 1s linear;
+        }
+        .tombol {
+            animation: appear 0.5s linear;
+        }
+    </style>
+</head>
+<body>
+    <section class="banner">
+        <nav>
+            <a href="index.html"><img src="images/logo2.png" class="logo"></a>
+            <div class="navbar" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="abtus.html">About Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <div class="content">
+                <h1 class="h1-1">Welcome to RAJA</h1>
+                <p>Tempat kami menampilkan informasi mengenai jaringan komputer<br>yang kami pelajari selama pembelajaran TIK di kelas 9A</p>
+                    <div class="tombol">
+                        <button class="btn btn1" onclick="location.href='info.html'">START NOW</button>
+                    </div>
+            </div>
+
+    </section>
+</body>
+</html>

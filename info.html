@@ -1,0 +1,205 @@
+<html>
+<head>
+    <title> Informasi </title>
+    <link rel="icon" type="image/x-icon" href="images/logo3.svg">
+    <link rel="stylesheet" href="style3.css">
+    
+    <style>
+        @keyframes appear{
+            from {
+                transform: translateY(15px);
+                opacity: 0;
+                scale: 0.5;
+            }
+            to {
+                transform: translateY(0px);
+                opacity: 1;
+                scale: 1;
+            }
+        }
+       
+        .head {
+            animation: appear 1s linear;
+        }
+        .top-section p, img{
+            animation: appear linear;
+            animation-timeline: view();
+            animation-range: entry 0 cover 40%;
+        }
+        .mto, .columns {
+            animation: appear linear;
+            animation-timeline: view();
+            animation-range: entry 0 cover 40%;
+        }
+        img {
+            display: block;
+            margin: auto;
+        }
+    </style>
+    
+</head>
+<body>
+    <nav>
+            <a href="index.html"><img src="images/logo2.png" class="logo"></a>
+            <div class="navbar" id="navLinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="abtus.html">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    <header>
+            <div class="head">
+                <h1> JARINGAN KOMPUTER</h1>
+                <p>Scroll untuk memulai</p>
+            </div>
+    </header>        
+    
+<section class="form2">
+        <div class="top-section">
+            <h1>Jaringan Komputer</h1>
+            <div class="lineky"></div>
+            <p>Sebuah sistem yang menghubungkan antar perangkat komputer sehingga memungkinkan mereka untuk saling bertukar informasi dan sumber daya.</p>
+        </div>
+            <div class="img">
+              <img src="images/jarkom.png" class="img" width="800px">
+            </div>
+</section>
+
+<section class="form1">
+        <div class="top-section">
+            <h1>Fungsi</h1>
+            <div class="lineky"></div>
+                <div class="mto">
+                    <p>
+                    Jaringan Komputer sudah berpengaruh besar dalam kehidupan sehari - hari.
+                    Dengan Jaringan Komputer, kita dapat berkomunikasi jarak jauh, mendapat hiburan melalui game dan sebagainya,
+                    mencari informasi, dan masih banyak lagi yang dapat kita lakukan.
+                    Karena itu dapat dilihat bahwa <b>fungsi utama</b> jaringan komputer adalah <b>memudahkan aktivitas manusia
+                    yang dilakukan secara daring (online).</b>
+                    </p>
+                </div>
+        </div>
+        <div class="img">
+            <img src="images/chat.png" class="img" width="300px">
+        </div>
+</section>
+<section class="form2">
+        <div class="top-section">
+            <h1>Jenis Jaringan Komputer Berdasarkan Jangkauan</h1>
+            <div class="lineky"></div>
+        </div>
+        <div class="columns">
+            <div class="column">
+                <h2>Local Area Network (LAN)</h2>
+                <p>
+                    LAN adalah jaringan lokal yang menghubungkan perangkat dalam area terbatas dengan ukuran 1 - 10 kilometer. 
+                    Jaringan LAN biasa digunakan dalam sebuah rumah, kantor, atau sekolah. Keuntungan jaringan LAN salah satunya adalah lebih stabil dan mudah mengakses 
+                    dibandingkan jaringan wireless.
+                </p>
+            </div>
+            <div class="column">
+               <h2>Metropolitan Area Network (MAN)</h2>
+               <p>
+                   MAN adalah jaringan metropolitan yang mencakup wilayah geografis yang lebih luas dibandingkan LAN dengan jangkauan berkisar hingga 50 kilometer.
+                   Jaringan MAN digunakan pada wilayah luas seperti perkotaan ataupun kawasan industri. Keuntungan jaringan MAN salah satunya adalah jangkauannya yang 
+                   luas memudahkan suatu lembaga atau usaha dalam satu wilayah perkotaan untuk berkomunikasi.
+
+               </p>
+          </div>
+            <div class="column">
+               <h2>Wide Area Network (WAN)</h2>
+               <p>
+                   WAN adalah jaringan area luas yang menghubungkan perangkat komputer yang berjauhan secara geografis, bisa antar kota, negara, bahkan benua. 
+                   Keuntungan jaringan WAN salah satunya adalah jangkauan wilayah dapat memudahkan pengguna untuk terhubung dengan pengguna lain dari seluruh penjuru 
+                   dunia.
+               </p>
+            </div>
+        </div>
+</section>
+<section class="form1">
+    <div class="top-section">
+        <h1>Jenis Jaringan Komputer Berdasarkan Topologi</h1>
+        <div class="lineky"></div>
+    </div>
+    <div class="columns">
+        <div class="column2">
+            <h2>Topologi Bus</h2>
+            <p>
+                Topologi ini merupakan bentangan satu kabel yang kedua ujungnya ditutup, dimana sepanjang kabel terdapat node - node. Sinyal dalam kabel dengan 
+                topologi ini dilewati searah sehingga memungkinkan sebuah tabrakan terjadi.<br />
+            </p>
+            <div class="img">
+                <br /><br /><img src="images/bus.png" class="img" width="200px">
+            </div>
+        </div>
+        <div class="column2">
+            <h2>Topologi Tree</h2>
+            <p>
+                Topologi ini merupakan gabungan dari beberapa topologi star yang dihubungkan dengan topologi bus. Setiap topologi star akan terhubung dengan topologi 
+                star lainnya dengan menggunakan topologi bus. Biasanya terdapat tingkatan jaringan pada topologi ini.
+            </p>
+            <div class="img">
+                <br /><img src="images/tree.png" class="img" width="200px">
+            </div>
+        </div>
+        <div class="column2">
+            <h2>Topologi Star</h2>
+            <p>
+                Topologi star berbentuk seperti bintang. Topologi ini menggunakan hub / switch untuk menghubungkan setiap node yang ada.
+            </p>
+            <div class="img">
+                <br /><br /><br /><br /><img src="images/star.png" class="img" width="150px">
+            </div>
+        </div>
+        <div class="column2">
+            <h2>Topologi Ring</h2>
+            <p>
+                Topologi ini terbentuk dari node - node yang ditata hingga membentuk suatu lingkaran. Karena tidak memerlukan ujung, maka topologi ini tidak memerlukan 
+                terminator.
+            </p>
+            <div class="img">
+                <br /><br /><br /><img src="images/ring.png" class="img" width="130px">
+            </div>
+        </div>
+        <div class="column2">
+            <h2>Topologi Mesh</h2>
+            <p>
+                Topologi ini ditata hingga semua node saling terhubung dengan komputer lain dalam jaringannya. Sehingga proses pengiriman data akan langsung 
+                mencapai komputer tujuan tanpa memerlukan perantara.
+            </p>
+            <div class="img">
+                <br /><br /><img src="images/mesh.png" class="img" width="140px">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="form2">
+    <div class="top-section">
+        <h1>Internet dan Intranet</h1>
+        <div class="lineky"></div>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <h2>Internet</h2>
+            <p>
+                <br />Internet adalah jaringan komunikasi elektronik yang menghubungkan
+                jaringan komputer dan fasilitas komputer yang terorganisasi di seluruh dunia melalui telepon atau satelit.
+            </p>
+            <div class="img">
+                <img src="images/internet.png" class="img" width="140px">
+            </div>
+        </div>
+        <div class="column">
+            <h2>Intranet</h2>
+            <p>
+                <br />Intranet adalah bentuk teknologi yang digunakan dalam suatu organisasi atau perusahaan dan bersifat internal.
+            </p>
+            <div class="img">
+                <br /><br /><img src="images/intranet.png" class="img" width="140px">
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
